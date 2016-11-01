@@ -37,12 +37,14 @@ reg_date TIMESTAMP
 )";
 $conn->query($sql);
 
+
 $sql = "CREATE TABLE Messages (
     id INT(8) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(250) NOT NULL,
-    message TEXT(300) NOT NULL,
+    message VARCHAR(500) NOT NULL,
     message_date TIMESTAMP
     )";
+$conn->query($sql);
 
 
 //commented out the close connection but have added a close to each script as if connection was closed they wouldn't be able to connect'

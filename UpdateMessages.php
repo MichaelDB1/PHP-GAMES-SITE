@@ -6,14 +6,22 @@
 
     //correct this later
 
-    //security needed to be added				
-    $myusername = $_GET['username'];
+    //security needed to be added
+	
+	
+	
+	
+	
+   // $myusername = $_GET['username'];
 
-    $mymessage = $_GET['message'];
+   //$mymessage = $_GET['message'];
+   
+  
+	
+	
 
-
-     //$myusername = 'something';
-     //$mymessage = 'something';
+     $myusername = 'something';
+     $mymessage = 'something';
 	 
 	 $username = new Checker( $myusername );
      $username = $username->result();
