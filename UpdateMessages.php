@@ -4,6 +4,8 @@
     require 'database.php';
 	require 'CheckEntry.php';
 
+    
+
     //correct this later
 
     //security needed to be added				
