@@ -86,11 +86,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Game Laboratory Login</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/LoginRegister.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
 </head>
 <body>
-
+    <div id="main">
     <div class="header">
         Game Laboratory
             </div>
@@ -110,6 +110,7 @@
         <input type="password" placeholder="Enter your passwrod" name="password">
         <input name="login" type="submit" value="login">
     </form>
+    </div>
 
 </body>
 </html>

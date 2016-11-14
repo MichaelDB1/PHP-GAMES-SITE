@@ -150,7 +150,7 @@ if(!empty($_POST['email']) && !empty($_POST['firstname'])  && !empty($_POST['las
 <html>
 <head> 
     <title>Game Laboratory Registration</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/LoginRegister.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed"  rel="stylesheet">
 </head>
 <body>

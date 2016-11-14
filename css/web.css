@@ -37,14 +37,14 @@ body {font-family: Verdana,sans-serif;}
   height: 8px;
   width: 20px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #e5e5e5;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #717171;
+  background-color: #9bc2cf;
 }
 
 /* Fading animation */
@@ -80,6 +80,7 @@ body {font-family: Verdana,sans-serif;}
 .mySidenav{
     position: relative;
     left: 20px;
+
 }
 
 
@@ -90,7 +91,7 @@ body {font-family: Verdana,sans-serif;}
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #02040d;
+    background-color: #00003e;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -100,7 +101,7 @@ body {font-family: Verdana,sans-serif;}
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 35px;
-    color: #818181;
+    color: #e5e5e5;
     display: block;
     transition: 0.3s
 }
@@ -156,7 +157,7 @@ body {font-family: Verdana,sans-serif;}
 		padding: 5px;
 		margin: 10px;
 		font-size: 14px;
-		width: calc(50% - 20px);
+		width: calc(100% - 20px);
 		outline: none;
 	}
 	.bottom {
@@ -270,6 +271,16 @@ body{
     text-align: center;
 
 }
+
+.menu{
+    border-bottom: 5px solid #081e42;
+    background: #809cc9;
+    padding: 5px 0px 5px;
+    width: 100%;
+    text-align: left;
+
+}
+
 
 .head a{
     color:#333;

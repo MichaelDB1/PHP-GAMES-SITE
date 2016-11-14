@@ -22,7 +22,7 @@
     if ($count ==1){
         //row output
         $row = mysqli_fetch_assoc($result);      
-        $message = "Username: " . $row["username"] . " - Name: " . $row["firstname"] . " " . $row["lastname"] . " - Email: " . $row["email"];        
+        $message = "Your Username: " . $row["username"] . " - Name: " . $row["firstname"] . " " . $row["lastname"] . " - Email: " . $row["email"];        
     }
     else {
         $message = "Hmmm looks like you managed to break it";
@@ -45,6 +45,7 @@
 
 <body>
 
+
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="Index.php">Main Board</a>
@@ -54,11 +55,6 @@
   <a href="LogoutChecker.php">Logout</a>
 </div>
 
-    
-      
-    <div id="main">
-        
-       
         <span style="font-size:35px;cursor:pointer; width: 100%;" onclick="openNav()"> <div class="menu">&#9776; Menu ------->
         <?php 
          //message variable displayed
@@ -66,79 +62,14 @@
             <?= $message ?>
         <?php endif; ?></div>
         </span>
-     
-         
 
-        
-
-        <div class="slideshow-container" >
-
-         
-
-        <div class="mySlides fade" >
-        <div class="numbertext">1 / 4</div>
-        <img src="images/controller.jpg"  style="width:100%">
-        <div class="text">Video Games</div>
-        </div>
-
-        <div class="mySlides fade">
-        <div class="numbertext">2 / 4</div>
-        <img src="images/crosses.jpg" style="width:100%">
-        <div class="text">Puzzle Games</div>
-        </div>
-
-        <div class="mySlides fade">
-        <div class="numbertext">3 / 4</div>
-        <img src="images/football.jpg" style="width:100%">
-        <div class="text">Fun games</div>
-        </div>
-
-
-
-        <div class="mySlides fade">
-        <div class="numbertext">4 / 4</div>
-        <img src="images/sudoku2.jpg" style="width:100%">
-        <div class="text">Sudoku</div>
-        </div>
-
-        </div>
-        <br>
-
-        <div style="text-align:center">
-           
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <br>
-       
-
-        </div>
-
-
-       
-        
-        <div class="header">
+    <div class="header">
         Welcome to Game Laboratory
-         
+
 
             </div>
 
      <h1>Enjoy exploring Game Laboratorys many student made games.</h1>
 
-    <div class="msg-container">
-	<div class="header">Messenger</div>
-	<div class="msg-area" id="msg-area"></div>
-	<div class="bottom"><input type="text" name="msginput" class="msginput" id="msginput" onkeydown="if (event.keyCode == 13) sendmsg()" value="" placeholder="Enter your message here ... (Press enter to send message)"></div>
-    </div>
-
-
-        </div>
-    
-
-<script>
-showSlides();
-</script>
-
-</body>
+     </body>
 </html>

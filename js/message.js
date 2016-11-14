@@ -4,9 +4,11 @@ var msgarea = document.getElementById("msg-area");
 
 
 function chooseusername() {
-	var user = document.getElementById("cusername").value;
-	document.cookie="messengerUname=" + user
-	checkcookie()
+	//var user = document.getElementById("cusername").value;
+	//document.cookie="messengerUname=" + user
+	//checkcookie()
+
+//	Need to get session Username
 }
 
 function checkcookie() {
@@ -16,6 +18,9 @@ function checkcookie() {
 		hideLogin();
 	}
 }
+
+/*
+
 function getcookie(cname) {
     var name = cname + "=";
     var ca = document.cookie.split(';');
@@ -27,9 +32,9 @@ function getcookie(cname) {
     return "";
 }
 
+*/
 
-
-
+/*
 function escapehtml(text) {
   return text
       .replace(/&/g, "&amp;")
@@ -37,7 +42,7 @@ function escapehtml(text) {
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#039;");
-}
+}*/
 
 
 
@@ -92,4 +97,9 @@ function sendmsg() {
 	      xmlhttp.send();
   	}
 }
+
+
+
+
+
 setInterval(function(){ update() }, 2500);
